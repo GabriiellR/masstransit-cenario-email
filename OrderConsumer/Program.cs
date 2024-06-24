@@ -1,3 +1,6 @@
+using ConsumerAPI;
+using MassTransit;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,27 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+builder.Services.AddMassTransit(x =>
+{
+    x.AddConsumer<MessageConsumer>();
+
+    x.UsingRabbitMq((context, cfg) =>
+    {
+        cfg.Host("localhost", "/", h =>
+        {
+            h.Username("guest");
+            h.Password("guest");
+        });
+
+        cfg.ReceiveEndpoint("message_queue", e =>
+        {
+            e.ConfigureConsumer<MessageConsumer>(context);
+        });
+    });
+});
+
 
 var app = builder.Build();
 

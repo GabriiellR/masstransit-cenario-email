@@ -1,0 +1,12 @@
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\bin\Debug\net7.0\Shared.Model.deps.json
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\bin\Debug\net7.0\Shared.Model.dll
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\bin\Debug\net7.0\Shared.Model.pdb
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\obj\Debug\net7.0\Shared.Model.csproj.AssemblyReference.cache
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\obj\Debug\net7.0\Shared.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\obj\Debug\net7.0\Shared.Model.AssemblyInfoInputs.cache
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\obj\Debug\net7.0\Shared.Model.AssemblyInfo.cs
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\obj\Debug\net7.0\Shared.Model.csproj.CoreCompileInputs.cache
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\obj\Debug\net7.0\Shared.Model.dll
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\obj\Debug\net7.0\refint\Shared.Model.dll
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\obj\Debug\net7.0\Shared.Model.pdb
+C:\Users\informatica04\Desktop\masstransit\Shared.Model\obj\Debug\net7.0\ref\Shared.Model.dll

@@ -1,4 +1,4 @@
-namespace OrderConsumer
+namespace OrderPublish
 {
     public class WeatherForecast
     {

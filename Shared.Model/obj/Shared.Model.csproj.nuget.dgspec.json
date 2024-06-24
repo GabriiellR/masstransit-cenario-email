@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\informatica04\\source\\repos\\MassTransit\\Shared.Model\\Shared.Model.csproj": {}
+    "C:\\Users\\informatica04\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\informatica04\\source\\repos\\MassTransit\\Shared.Model\\Shared.Model.csproj": {
+    "C:\\Users\\informatica04\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\informatica04\\source\\repos\\MassTransit\\Shared.Model\\Shared.Model.csproj",
+        "projectUniqueName": "C:\\Users\\informatica04\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj",
         "projectName": "Shared.Model",
-        "projectPath": "C:\\Users\\informatica04\\source\\repos\\MassTransit\\Shared.Model\\Shared.Model.csproj",
+        "projectPath": "C:\\Users\\informatica04\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj",
         "packagesPath": "C:\\Users\\informatica04\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\informatica04\\source\\repos\\MassTransit\\Shared.Model\\obj\\",
+        "outputPath": "C:\\Users\\informatica04\\Desktop\\masstransit\\Shared.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\informatica04\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            },
+            "MassTransit.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.0.11, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
