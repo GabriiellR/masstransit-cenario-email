@@ -1,0 +1,39 @@
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\appsettings.json
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\1 - Publicador.exe
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\1 - Publicador.deps.json
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\1 - Publicador.runtimeconfig.json
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\1 - Publicador.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\1 - Publicador.pdb
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\MassTransit.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.csproj.AssemblyReference.cache
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.AssemblyInfoInputs.cache
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.AssemblyInfo.cs
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\staticwebassets\msbuild.1 - Publicador.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\staticwebassets\msbuild.build.1 - Publicador.props
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.1 - Publicador.props
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.1 - Publicador.props
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\scopedcss\bundle\1 - Publicador.styles.css
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.csproj.CopyComplete
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\refint\1 - Publicador.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.pdb
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.genruntimeconfig.cache
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\ref\1 - Publicador.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll

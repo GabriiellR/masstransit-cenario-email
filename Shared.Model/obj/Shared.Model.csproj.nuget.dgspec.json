@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\informatica04\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj": {}
+    "C:\\Users\\Gabriel Dias\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\informatica04\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj": {
+    "C:\\Users\\Gabriel Dias\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\informatica04\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel Dias\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj",
         "projectName": "Shared.Model",
-        "projectPath": "C:\\Users\\informatica04\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj",
-        "packagesPath": "C:\\Users\\informatica04\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\informatica04\\Desktop\\masstransit\\Shared.Model\\obj\\",
+        "projectPath": "C:\\Users\\Gabriel Dias\\Desktop\\masstransit\\Shared.Model\\Shared.Model.csproj",
+        "packagesPath": "C:\\Users\\Gabriel Dias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel Dias\\Desktop\\masstransit\\Shared.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\informatica04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gabriel Dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

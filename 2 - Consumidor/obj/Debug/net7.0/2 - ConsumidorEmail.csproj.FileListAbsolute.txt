@@ -1,0 +1,37 @@
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\appsettings.json
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\2 - ConsumidorEmail.exe
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\2 - ConsumidorEmail.deps.json
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\2 - ConsumidorEmail.runtimeconfig.json
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\2 - ConsumidorEmail.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\2 - ConsumidorEmail.pdb
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\MassTransit.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\2 - ConsumidorEmail.csproj.AssemblyReference.cache
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\2 - ConsumidorEmail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\2 - ConsumidorEmail.AssemblyInfoInputs.cache
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\2 - ConsumidorEmail.AssemblyInfo.cs
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\2 - ConsumidorEmail.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\2 - ConsumidorEmail.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\2 - ConsumidorEmail.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\staticwebassets\msbuild.2 - ConsumidorEmail.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\staticwebassets\msbuild.build.2 - ConsumidorEmail.props
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.2 - ConsumidorEmail.props
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.2 - ConsumidorEmail.props
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\scopedcss\bundle\2 - ConsumidorEmail.styles.css
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\2 - ConsumidorEmail.csproj.CopyComplete
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\2 - ConsumidorEmail.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\refint\2 - ConsumidorEmail.dll
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\2 - ConsumidorEmail.pdb
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\2 - ConsumidorEmail.genruntimeconfig.cache
+C:\Users\Gabriel Dias\Desktop\masstransit\2 - Consumidor\obj\Debug\net7.0\ref\2 - ConsumidorEmail.dll
