@@ -1,10 +1,10 @@
-﻿using MassTransit.SagaStateMachine;
+﻿using _3_Compartilhado;
 
 namespace _2___ConsumidorEmail.Model
 {
-    public class Chamado
+    public class Chamado : IChamado
     {
-        public string Titutlo { get; set; }
-        public string Descricao { get; set; }
+        public string Titulo { get; set; } = string.Empty;
+        public string Descricao { get; set; } = string.Empty;
     }
 }

@@ -36,6 +36,42 @@
           }
         }
       },
+      "MassTransit.AspNetCore/7.3.1": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit": "7.3.1",
+          "MassTransit.Extensions.DependencyInjection": "7.3.1",
+          "Microsoft.Extensions.Diagnostics.HealthChecks": "3.1.18",
+          "Microsoft.Extensions.Hosting.Abstractions": "3.1.18"
+        },
+        "compile": {
+          "lib/netstandard2.0/MassTransit.AspNetCoreIntegration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MassTransit.AspNetCoreIntegration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MassTransit.Extensions.DependencyInjection/7.3.1": {
+        "type": "package",
+        "dependencies": {
+          "MassTransit": "7.3.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/MassTransit.ExtensionsDependencyInjectionIntegration.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MassTransit.ExtensionsDependencyInjectionIntegration.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "MassTransit.RabbitMQ/8.2.3": {
         "type": "package",
         "dependencies": {
@@ -353,6 +389,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "3-Compartilhado/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/3-Compartilhado.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/3-Compartilhado.dll": {}
+        }
       }
     }
   },
@@ -396,6 +442,34 @@
         "lib/netstandard2.0/MassTransit.Abstractions.xml",
         "masstransit.abstractions.8.2.3.nupkg.sha512",
         "masstransit.abstractions.nuspec",
+        "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.AspNetCore/7.3.1": {
+      "sha512": "l5zu6mHevPQGP1tfDg4My8dtqH4n2jL22+Y1+GnAs12liQy5gYLcJAwSmCKb1iusjjD9S1tgfdILVkAfShfN8w==",
+      "type": "package",
+      "path": "masstransit.aspnetcore/7.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MassTransit.AspNetCoreIntegration.dll",
+        "lib/netstandard2.0/MassTransit.AspNetCoreIntegration.xml",
+        "masstransit.aspnetcore.7.3.1.nupkg.sha512",
+        "masstransit.aspnetcore.nuspec",
+        "mt-logo-small.png"
+      ]
+    },
+    "MassTransit.Extensions.DependencyInjection/7.3.1": {
+      "sha512": "s1gnkYUngHNP9m2+Jx1vuUAvoVm4KB3oVbtFJUlXNtBBzhRFq1N3Y0w5iiew60ZBLm0j0RQcSRbI0ahMOkL+og==",
+      "type": "package",
+      "path": "masstransit.extensions.dependencyinjection/7.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MassTransit.ExtensionsDependencyInjectionIntegration.dll",
+        "lib/netstandard2.0/MassTransit.ExtensionsDependencyInjectionIntegration.xml",
+        "masstransit.extensions.dependencyinjection.7.3.1.nupkg.sha512",
+        "masstransit.extensions.dependencyinjection.nuspec",
         "mt-logo-small.png"
       ]
     },
@@ -1069,11 +1143,18 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "3-Compartilhado/1.0.0": {
+      "type": "project",
+      "path": "../3-Compartilhado/3-Compartilhado.csproj",
+      "msbuildProject": "../3-Compartilhado/3-Compartilhado.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "3-Compartilhado >= 1.0.0",
       "MassTransit >= 8.2.3",
+      "MassTransit.AspNetCore >= 7.3.1",
       "MassTransit.RabbitMQ >= 8.2.3",
       "Microsoft.AspNetCore.OpenApi >= 7.0.4",
       "Microsoft.Extensions.Configuration.Abstractions >= 8.0.0",
@@ -1081,19 +1162,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Gabriel Dias\\.nuget\\packages\\": {}
+    "C:\\Users\\informatica04\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Gabriel Dias\\Desktop\\masstransit\\1 - Publicador\\1 - Publicador.csproj",
+      "projectUniqueName": "C:\\Users\\informatica04\\Desktop\\masstransit\\1 - Publicador\\1 - Publicador.csproj",
       "projectName": "1 - Publicador",
-      "projectPath": "C:\\Users\\Gabriel Dias\\Desktop\\masstransit\\1 - Publicador\\1 - Publicador.csproj",
-      "packagesPath": "C:\\Users\\Gabriel Dias\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Gabriel Dias\\Desktop\\masstransit\\1 - Publicador\\obj\\",
+      "projectPath": "C:\\Users\\informatica04\\Desktop\\masstransit\\1 - Publicador\\1 - Publicador.csproj",
+      "packagesPath": "C:\\Users\\informatica04\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\informatica04\\Desktop\\masstransit\\1 - Publicador\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Gabriel Dias\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\informatica04\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1106,7 +1187,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\informatica04\\Desktop\\masstransit\\3-Compartilhado\\3-Compartilhado.csproj": {
+              "projectPath": "C:\\Users\\informatica04\\Desktop\\masstransit\\3-Compartilhado\\3-Compartilhado.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1122,6 +1207,10 @@
           "MassTransit": {
             "target": "Package",
             "version": "[8.2.3, )"
+          },
+          "MassTransit.AspNetCore": {
+            "target": "Package",
+            "version": "[7.3.1, )"
           },
           "MassTransit.RabbitMQ": {
             "target": "Package",
@@ -1159,7 +1248,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

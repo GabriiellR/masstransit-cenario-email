@@ -1,4 +1,5 @@
-using _2___ConsumidorEmail.Application;
+using _2___ConsumidorEmail.ApplicationService;
+using _2___ConsumidorEmail.CrossCutting;
 using MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,19 +11,28 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var app = builder.Build();
 
-var busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
+builder.Services.AddMassTransit(x =>
 {
-    cfg.Host(builder.Configuration.GetConnectionString("RabbitMq"));
+    x.AddConsumer<ApplicationServiceConsumidor>();
 
-    cfg.ReceiveEndpoint("enviar-email", e =>
+    x.UsingRabbitMq((context, cfg) =>
     {
-        e.Consumer<ApplicationConsumidor>();
+        cfg.Host(builder.Configuration.GetConnectionString("RabbitMq"));
+
+        cfg.ReceiveEndpoint("enviar-email", e =>
+        {
+            e.UseMessageRetry(r => r.Interval(2, 100));
+            e.ConfigureConsumer<ApplicationServiceConsumidor>(context);
+        });
     });
 });
 
-busControl.StartAsync();
+builder.Services.AddHostedService<MassTransitHostedService>();
+
+Module.RegisterModules(builder.Services);
+
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

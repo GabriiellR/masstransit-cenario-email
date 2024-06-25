@@ -1,5 +1,6 @@
 ﻿using _1___Publicador.Model;
 using _1___Publicador.Repository;
+using _3_Compartilhado;
 using MassTransit;
 
 namespace _1___Publicador.ApplicationService
@@ -21,11 +22,13 @@ namespace _1___Publicador.ApplicationService
         public async Task<Chamado> CriarChamado(Chamado chamado)
         {
             var chamadoCriado = _repositoryChaamado.CriarChamado(chamado);
-            var endpoint = await _bus.GetSendEndpoint(new Uri("queue:enviar-email"));
+            Uri uri = new Uri("rabbitmq://localhost/enviar-email");
+            //var endpoint = await _bus.GetSendEndpoint(new Uri("queue:enviar"));
+            var endpoint = await _bus.GetSendEndpoint(uri);
 
-            endpoint.Send<Chamado>(new
+            await endpoint.Send<IChamado>(new
             {
-                Titutlo = chamadoCriado.Titulo,
+                Titulo = chamadoCriado.Titulo,
                 Descricao = chamadoCriado.Descricao
 
             });

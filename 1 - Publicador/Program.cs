@@ -1,7 +1,7 @@
 using _1___Publicador.CrossCutting;
-using _1___Publicador.Model;
+using Microsoft.Extensions.Hosting;
 using MassTransit;
-using RabbitMQ.Client;
+using _1___Publicador.Model;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,24 +15,20 @@ builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("RabbitMq");
 
-builder.Services.AddMassTransit(bus =>
+builder.Services.AddMassTransit(x =>
 {
-    bus.UsingRabbitMq((ctx, busConfigurator) =>
+    x.AddBus(provider => Bus.Factory.CreateUsingRabbitMq(config =>
     {
-        busConfigurator.Host(connectionString);
-        busConfigurator.Publish<Chamado>(context =>
-        {
-            context.ExchangeType = ExchangeType.Fanout;
-        });
-    });
-
+        config.Host(connectionString);
+    }));
 });
+
+builder.Services.AddHostedService<MassTransitHostedService>();
 
 Module.RegisterModules(builder.Services);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
