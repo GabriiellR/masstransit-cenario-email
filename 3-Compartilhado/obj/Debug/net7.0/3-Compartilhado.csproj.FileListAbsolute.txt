@@ -1,6 +1,7 @@
 C:\Users\informatica04\Desktop\masstransit\3-Compartilhado\bin\Debug\net7.0\3-Compartilhado.deps.json
 C:\Users\informatica04\Desktop\masstransit\3-Compartilhado\bin\Debug\net7.0\3-Compartilhado.dll
 C:\Users\informatica04\Desktop\masstransit\3-Compartilhado\bin\Debug\net7.0\3-Compartilhado.pdb
+C:\Users\informatica04\Desktop\masstransit\3-Compartilhado\obj\Debug\net7.0\3-Compartilhado.csproj.AssemblyReference.cache
 C:\Users\informatica04\Desktop\masstransit\3-Compartilhado\obj\Debug\net7.0\3-Compartilhado.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\informatica04\Desktop\masstransit\3-Compartilhado\obj\Debug\net7.0\3-Compartilhado.AssemblyInfoInputs.cache
 C:\Users\informatica04\Desktop\masstransit\3-Compartilhado\obj\Debug\net7.0\3-Compartilhado.AssemblyInfo.cs

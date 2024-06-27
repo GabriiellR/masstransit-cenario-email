@@ -1,43 +1,31 @@
-﻿using System.Net;
-using System.Net.Mail;
+﻿using _2___ConsumidorEmail.Services;
 
 namespace _2___ConsumidorEmail.ApplicationService
 {
     public class ApplicationServiceEmail : IApplicationServiceEmail
     {
-        public void EnviarEmail(string titulo, string descricao)
+        readonly IServiceEnvioEmail _serviceEnvioEmail;
+
+        public ApplicationServiceEmail(IServiceEnvioEmail serviceEnvioEmail)
         {
+            _serviceEnvioEmail = serviceEnvioEmail;
+        }
 
-            var configuration = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory())
-                                                          .AddJsonFile("appsettings.json")
-                                                          .Build();
-
-            var email = configuration.GetSection("email").Value;
-            var senha = configuration.GetSection("senhaEmail").Value;
-
-            MailAddress to = new MailAddress("coordenacao.ti@somalogistica.com.br");
-            MailAddress from = new MailAddress(email);
-            MailMessage emailAdress = new MailMessage(from, to);
-
-            emailAdress.Subject = titulo;
-            emailAdress.Body = descricao;
-
-            SmtpClient smtpClient = new SmtpClient();
-            smtpClient.Host = "smtp.office365.com";
-            smtpClient.Port = 587;
-            smtpClient.Credentials = new NetworkCredential(email, senha);
-            smtpClient.DeliveryMethod = SmtpDeliveryMethod.Network;
-            smtpClient.EnableSsl = true;
-            smtpClient.UseDefaultCredentials = false;
-
+        public void EnviarEmail(string titulo, string descricao, string destinatario, List<IFormFile> anexos)
+        {
             try
             {
-                smtpClient.Send(emailAdress);
+                _serviceEnvioEmail.Criar()
+                                  .AdicionarRemetente()
+                                  .AdicionarDestinatario(destinatario)
+                                  .AdicionarAssunto(titulo)
+                                  .AdicionarCorpo(descricao)
+                                  .AdicionarAnexo(anexos)
+                                  .MontarCorpoEmail()
+                                  .Enviar();
             }
-            catch (Exception ex)
-            {
-                throw new Exception(ex.Message);
-            }
+            catch (Exception ex) { }
+
         }
     }
 }

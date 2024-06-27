@@ -1,10 +1,3 @@
-C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.csproj.AssemblyReference.cache
-C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.AssemblyInfoInputs.cache
-C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.AssemblyInfo.cs
-C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.csproj.CoreCompileInputs.cache
-C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\appsettings.json
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\2 - ConsumidorEmail.exe
@@ -12,15 +5,31 @@ C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\2 - ConsumidorEmail.runtimeconfig.json
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\2 - ConsumidorEmail.dll
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\2 - ConsumidorEmail.pdb
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\MailKit.dll
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\MassTransit.dll
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\MassTransit.Abstractions.dll
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\MimeKit.dll
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\RabbitMQ.Client.dll
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\System.Formats.Asn1.dll
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\3-Compartilhado.dll
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\3-Compartilhado.pdb
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.csproj.AssemblyReference.cache
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.AssemblyInfoInputs.cache
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.AssemblyInfo.cs
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.csproj.CoreCompileInputs.cache
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\staticwebassets\msbuild.2 - ConsumidorEmail.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\staticwebassets\msbuild.build.2 - ConsumidorEmail.props
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.2 - ConsumidorEmail.props
@@ -35,5 +44,3 @@ C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.pdb
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\2 - ConsumidorEmail.genruntimeconfig.cache
 C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\obj\Debug\net7.0\ref\2 - ConsumidorEmail.dll
-C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\3-Compartilhado.dll
-C:\Users\informatica04\Desktop\masstransit\2 - ConsumidorEmail\bin\Debug\net7.0\3-Compartilhado.pdb

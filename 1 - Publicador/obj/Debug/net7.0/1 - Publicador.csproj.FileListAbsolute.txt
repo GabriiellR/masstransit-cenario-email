@@ -53,10 +53,13 @@ C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Micro
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\RabbitMQ.Client.dll
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\3-Compartilhado.dll
+C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\3-Compartilhado.pdb
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.csproj.AssemblyReference.cache
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.AssemblyInfoInputs.cache
@@ -78,5 +81,3 @@ C:\Users\informatica04\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\refin
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.pdb
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\1 - Publicador.genruntimeconfig.cache
 C:\Users\informatica04\Desktop\masstransit\1 - Publicador\obj\Debug\net7.0\ref\1 - Publicador.dll
-C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\3-Compartilhado.dll
-C:\Users\informatica04\Desktop\masstransit\1 - Publicador\bin\Debug\net7.0\3-Compartilhado.pdb

@@ -15,7 +15,7 @@ namespace _1___Publicador.Controllers
         }
 
         [HttpPost("Criar-Chamado")]
-        public async Task<ActionResult> CriarChamado(Chamado chamado)
+        public async Task<ActionResult> CriarChamado([FromForm] Chamado chamado)
         {
             if (chamado is null)
                 return BadRequest("As informações do chamado não foram fornecidas.");

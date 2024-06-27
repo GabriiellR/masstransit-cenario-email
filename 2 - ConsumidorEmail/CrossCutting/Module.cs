@@ -1,4 +1,5 @@
 ﻿using _2___ConsumidorEmail.ApplicationService;
+using _2___ConsumidorEmail.Services;
 
 namespace _2___ConsumidorEmail.CrossCutting
 {
@@ -21,6 +22,7 @@ namespace _2___ConsumidorEmail.CrossCutting
         private static void RegisterScoped(IServiceCollection service)
         {
             service.AddScoped<IApplicationServiceEmail, ApplicationServiceEmail>();
+            service.AddScoped<IServiceEnvioEmail, ServiceEnvioEmail>();
         }
     }
 }
